@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00026e603fc1e13418bd51efc1b373ee, type: 3}
+  m_Name: BowNormal
+  m_EditorClassIdentifier: 
+  animatorOverride: {fileID: 22100000, guid: 04dc7e35fac02654b8b87e1732f087e0, type: 2}
+  equippedPrefab: {fileID: 4128987788441238839, guid: 4b83ad9cb5641c344b74679448b1b7f4, type: 3}
+  isRightHanded: 0
+  projectile: {fileID: -6204671046373709193, guid: d25eec52353a16241adda6652fd9bfa5, type: 3}
+  AttackSound: {fileID: 0}
+  HitSound: {fileID: 0}
+  IconImage: {fileID: 21300000, guid: 246577b25ba103945addc6ca58ba8662, type: 3}
+  WeaponRange: 16
+  KnockBack: 0
+  WeaponDamage: 5
+  WeaponClass: Mundane
+  AttackSpeed: 1
+  ArielKnockBack: 0
+  DamageType: Pierce
+  WeaponType:
+  - Melee
+  EnduranceCost: 2
+  SpiritCost: 0

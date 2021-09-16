@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00026e603fc1e13418bd51efc1b373ee, type: 3}
+  m_Name: GreatSwordBlock
+  m_EditorClassIdentifier: 
+  animatorOverride: {fileID: 22100000, guid: 7774a32dabf92b740bfac1e3684663b2, type: 2}
+  equippedPrefab: {fileID: 7324539241715479916, guid: dd8a478fb974f9d4b8c950027f43945f, type: 3}
+  isHandWeapon: 1
+  isRightHanded: 1
+  projectile: {fileID: 0}
+  AttackSound: {fileID: 8300000, guid: 4a578695dfac4422d81299af3481ea10, type: 3}
+  HitSound: {fileID: 8300000, guid: 06c64f23c57574a3baa74cfd01f6b940, type: 3}
+  IconImage: {fileID: 21300000, guid: 17974f250b095a5478ed6478c04f4bf5, type: 3}
+  WeaponRange: 1
+  KnockBack: 0
+  WeaponDamage: 5
+  WeaponClass: Mundane
+  AttackSpeed: 1
+  ArielKnockBack: 0
+  DamageType: Slashing
+  WeaponType:
+  - Shield
+  EnduranceCost: 1
+  SpiritCost: 0

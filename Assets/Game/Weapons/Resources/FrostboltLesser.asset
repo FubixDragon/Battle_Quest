@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00026e603fc1e13418bd51efc1b373ee, type: 3}
+  m_Name: FrostboltLesser
+  m_EditorClassIdentifier: 
+  animatorOverride: {fileID: 22100000, guid: ae7f70e4d432ea247b2130b0f5f67722, type: 2}
+  equippedPrefab: {fileID: 8946992271275870861, guid: 1694ecab1efaaec4f9ecd4666cf6bfcc, type: 3}
+  isRightHanded: 0
+  projectile: {fileID: -6204671046373709193, guid: afd7ad66ac62f004ca0f6614e24e9e2a, type: 3}
+  AttackSound: {fileID: 0}
+  HitSound: {fileID: 0}
+  IconImage: {fileID: 21300000, guid: 09a7973562957a5438cc287579a7bbad, type: 3}
+  WeaponRange: 8
+  KnockBack: 0
+  WeaponDamage: 4
+  WeaponClass: Magic
+  AttackSpeed: 1
+  ArielKnockBack: 0
+  DamageType: Ice
+  WeaponType:
+  - Magic
+  EnduranceCost: 0
+  SpiritCost: 3

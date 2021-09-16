@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00026e603fc1e13418bd51efc1b373ee, type: 3}
+  m_Name: FireballLesser
+  m_EditorClassIdentifier: 
+  animatorOverride: {fileID: 22100000, guid: 1893b0b297ece4443afb79b3da410401, type: 2}
+  equippedPrefab: {fileID: 8946992271275870861, guid: 0382052712ccfba459c4ce79425b7baa, type: 3}
+  isRightHanded: 1
+  projectile: {fileID: -6204671046373709193, guid: 31148c547604a07449a99fccd4efef05, type: 3}
+  AttackSound: {fileID: 0}
+  HitSound: {fileID: 0}
+  IconImage: {fileID: 21300000, guid: 7dd8a2b8e18b5c34a9f6ce7b028fd10f, type: 3}
+  WeaponRange: 8
+  KnockBack: 1
+  WeaponDamage: 4
+  WeaponClass: Magic
+  AttackSpeed: 1
+  ArielKnockBack: 0
+  DamageType: Fire
+  WeaponType:
+  - Magic
+  EnduranceCost: 0
+  SpiritCost: 3
